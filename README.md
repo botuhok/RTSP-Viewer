@@ -13,7 +13,7 @@ resolution = 1024 768  - window size
 name_of_camera   rtsp://...
 
 
-### three spaces are used between the camera name and the address!
+### three spaces are used between the camera name and the address! 
 
 ## Fullscreen
 Pressing the keyboard button with the corresponding camera number will open a full-screen window with the image of this camera. 
@@ -22,16 +22,16 @@ The window will close automatically after 40 seconds! I don't know how to do it 
 
 To enlarge cameras with numbers greater than 9, use the keys:
 
-0 - for camera 10
+<b>0</b> - for camera 10
 
-q - for camera 11
+<b>q</b> - for camera 11
 
-w - for camera 12
+<b>w</b> - for camera 12
 
-e - for camera 13
+<b>e</b> - for camera 13
 
-r - for camera 14
+<b>r</b> - for camera 14
 
-t - for camera 15
+<b>t</b> - for camera 15
 
-y - for camera 16
+<b>y</b> - for camera 16
