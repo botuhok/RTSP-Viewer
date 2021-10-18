@@ -3,29 +3,9 @@ import time
 import os
 os.add_dll_directory('C:\\Program Files (x86)\\VideoLAN\\VLC')
 import vlc
-#import threading
 
 root = Tk()
 root.title('RTSP Viewer')
-
-
-def check():
-    while True:
-        time.sleep(10)
-        print(cam3.get_state())
-        if cam3.get_state() == 'State.Ended':
-            print(cam3.get_state())
-            cam3.stop()
-            #Instance = vlc.Instance('--loop')
-            #cam3 = Instance.media_player_new()
-            #cam3.set_hwnd(frame3.winfo_id())
-            #media = Instance.media_new(addrs[2])
-            #cam3.set_media(media)
-            #cam3.play()
-        
-#root.after(1000, check)
-
-
 
 
 # read from config.cfg:
