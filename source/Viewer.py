@@ -6,7 +6,7 @@ import vlc
 
 root = Tk()
 root.title('RTSP Viewer')
-
+time_fulscreen = 40
 
 # read from config.cfg:
 try:
@@ -152,7 +152,7 @@ def fullscr(e):
     full_scr.play()
     full_scr.toggle_fullscreen()
     print (f'Start Fullscreen for cam#{channel}')
-    time.sleep(40)
+    time.sleep(time_fulscreen)
     full_scr.stop()
     print (f'Stop Fullscreen')
 
