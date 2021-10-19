@@ -10,7 +10,7 @@
 
 resolution = 1024 768  - window size
 
-name_of_camera   rtsp://...
+CameraName   rtsp://...
 
 
 ### three spaces are used between the camera name and the address! 
