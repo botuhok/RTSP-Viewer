@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 import os
-os.add_dll_directory('C:\\Program Files (x86)\\VideoLAN\\VLC')
+os.add_dll_directory('C:\\Program Files (x86)\\VLC')
 import vlc
 
 root = Tk()
@@ -102,6 +102,7 @@ for label in labels:
     i += 1
 
 def play_video(frame, addr):       # fr - frame(n), addr - rtsp address
+    '''Create VLC instance(frame = Tkinter.Frame, addr = RTSP address)'''
     Instance = vlc.Instance()
     player = Instance.media_player_new()
     player.set_hwnd(frame.winfo_id())
@@ -129,6 +130,7 @@ def stop_fullscr(e):
     full_scr.stop()
     print (f'Stop Fullscreen')
 def fullscr(e):
+    '''Fullscreen channel(e = number of channel)'''
     global full_scr
     try:
         if 1 <= int(e.char) <= 9:
